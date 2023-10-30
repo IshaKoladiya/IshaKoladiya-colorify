@@ -1,0 +1,21 @@
+{
+  "name": "ishkoladiya-colorify",
+  "version": "1.0.0",
+  "description": "A library to colorify your console log",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "console log colorify",
+    "colorify logs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": ["lib/**/*"]
+}
