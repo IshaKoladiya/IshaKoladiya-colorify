@@ -4,10 +4,10 @@ export class log{
     }
 
     static danger(msg: string){
-        console.log(`%c ${msg}`, "color:green");
+        console.log(`%c ${msg}`, "color:red");
     }
 
     static info(msg: string){
-        console.log(`%c ${msg}`, "color:black , background: yello" );
+        console.log(`%c ${msg}`, "color:black; background: yellow" );
     }
 }
